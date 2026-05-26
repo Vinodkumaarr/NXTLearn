@@ -6,7 +6,7 @@ import { GoogleGenAI } from "@google/genai";
 import axios from 'axios';
 import { NextResponse } from 'next/server';
 
-export const ai = new GoogleGenAI({
+const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
