@@ -5,7 +5,7 @@
 
 @layer base {
   :root {
-    --sidebar: oklch(0.985 0 0);
+    --sidebar: oklch(88.43% 0.01548 17.094);
     --sidebar-foreground: oklch(0.145 0 0);
     --sidebar-primary: oklch(0.205 0 0);
     --sidebar-primary-foreground: oklch(0.985 0 0);
@@ -70,7 +70,13 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  /* --background: oklch(95.938% 0.01092 256.845); */
+  background: linear-gradient(
+    to right,
+    oklch(29.234% 0.131 264.05),   /* blue */
+    oklch(95.938% 0.01092 256.845), /* white */
+    oklch(0% 0 0)                  /* black */
+  );
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
